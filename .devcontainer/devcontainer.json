@@ -10,7 +10,8 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"LocalCI.local-ci"
+				"LocalCI.local-ci",
+				"ms-azuretools.vscode-docker"
 			]
 		}
 	}
