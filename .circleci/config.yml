@@ -1,5 +1,3 @@
-# https://circleci.com/docs/2.0/config-intro/
-
 version: 2.1
 
 jobs:
@@ -14,3 +12,4 @@ workflows:
   test-flow:
     jobs:
       - test
+[![Upload Python Package](https://github.com/lucidrains/phenaki-pytorch/actions/workflows/python-publish.yml/badge.svg?branch=main&event=check_run)](https://github.com/lucidrains/phenaki-pytorch/actions/workflows/python-publish.yml)
