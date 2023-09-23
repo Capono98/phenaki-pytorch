@@ -5,6 +5,14 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "artificial-workflow",
+            "request": "launch",
+            "name": "Debug Current Workflow File",
+            "program": "${file}"
+        },
+        
+
+        {
             "name": "Python: Current File",
             "type": "python",
             "request": "launch",
@@ -18,6 +26,7 @@
             "name": "Debug Current Workflow File",
             "program": "${file}"
         },
+
         {
             "args": [
                 "--extensionDevelopmentPath=${workspaceFolder}"
@@ -45,5 +54,6 @@
             "console": "integratedTerminal",
             "justMyCode": true
         }
+        
     ]
 }
